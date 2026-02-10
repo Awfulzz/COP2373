@@ -8,7 +8,7 @@ def get_ticket_request(remaining_tickets):
 
     # Loop until the user enters a valid number
     while requested < 1 or requested > 4 or requested > remaining_tickets:
-        requested = int(input('How many tickets would you like to buy (1-4)? '))
+        requested = int(input('How many tickets today, (1-4)? '))
 
         # Check if the request is invalid
         if requested < 1 or requested > 4 or requested > remaining_tickets:
