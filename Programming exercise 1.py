@@ -24,7 +24,7 @@ def sell_tickets():
     Continues until all tickets are sold.
     '''
 
-    total_tickets = 20
+    total_tickets = 10
     buyers = 0  # accumulator
 
     # Loop until no tickets remain
